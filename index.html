@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liyagold.com</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo2.png" alt="liyagold logo2" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="menu222.png" alt="menu222" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                        <li id="cancel" class="cancel-btn hide-desktop">
+                            <img src="cancel1.png" alt="cancel menu"></li>
+                        <li><a class="home"a href="home.html">Home</a></li>
+                        <li><a class="product" a href="projects.html">Product</a></li>
+                        <li><a class="product" a href="about.html">About Us</a></li>
+                        <li><a class="product" a href="contact.html">Contact Us</a></li>
+                        <li><a href="home.html"><a class="button" href="ayportfolio.html">Order Now</a></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="clr"></div>
+        <section>
+            <div class="box">
+                <img src="food1.png" alt="food1 graphics">
+                <h1>Choosing<br>Quality Food.
+                <p>Wecome to liyagold where we serve <br>best food, pasteries and quality service.<br>
+                    <a class="button2" href="ayportfolio.html">Explore</a></p>
+                </h1>
+            </div>
+        </section>
+        <div class="clr"></div>
+    </div>
+    <h1 class="featured-food">Our Featured Food</h1>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    
+                </li>
+                <div class="food">
+                    <img src="sandwich.png" width="150px">
+                </div>
+                <div class="food">
+                    <img src="burger.png" width="150px">
+                </div>
+                <div class="food">
+                    <img src="dougnut.png" width="150px">
+                </div>
+                <div class="food">
+                    <img src="cookies.png" width="150px">
+                </div>
+                <div class="food">
+                    <img src="rice.png" width="150px">
+                </div>
+                <div class="food">
+                    <img src="burger.png" width="150px">
+                </div>
+                <div class="food"> 
+                    <img src="dougnut.png" width="150px">
+                </div>
+                <div class="food">
+                    <img src="cookies.png" width="150px">
+                </div>
+                <div class="clr"></div>
+                <div class="see-all">
+                    <p><a href="">See All Food </a><img src="arrow.png" width="50px"></p>
+                </div>
+                <div class="clr"></div>
+                </li>
+            </ul>
+        </div>
+
+        <p class="testimonies">Testimonies</p>
+        <h2 class="feedback">See Our Clients Feedback</h2>
+        <div class="foods">
+            <img src="david.png" width="250px">  
+        </div>
+        <div class="foods">
+            <img src="wahab.png"  width="250px">   
+        </div>
+        <div class="foods">
+            <img src="ishola.png"  width="250px">   
+        </div>
+        <img src="LINE.png" class="line hide-mobile show-desktop">
+    <div class="clr"></div>
+
+    <div class="white-container">
+        <div class="staff">
+            <ul>
+                <h3>Team</h3>
+                <h2>Our Chef Team</h2>
+                <div class="chef">
+                    <img src="stanley.png" width="250px">
+                </div>
+                <div class="chef">
+                    <img src="rotimi.png" width="250px">
+                </div>
+                <div class="chef">
+                    <img src="opeyemi.png" width="250px">
+                </div>
+            </ul>
+            <div class="clr"></div>
+            <a href="#" class="button3">See All</a>
+        </div>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <div class="form-group">
+                        <div id="gp">
+                        <p>Subscribe To Our Newsletter </p>
+                        <input type="text" email="email">
+                        <input class="button1" type="Submit" value="Submit" name="">
+                        </div>
+                        <p> <img src="loc.png" width="12px" alt=""> Opposite Bovas Betrol Station,<br>Tanke, Ilorin Kwara State.</p>
+                        <p> <img src="tel3.png" width="15px" alt="">+234 8100978754</p>
+                        
+                </div>
+                </li>
+                <div class="form-group">
+                <li>
+                    <h2>Our Service</h2>
+                    <p>Restaurant</p>
+                    <p>Bakery</p>
+                    <p>Supermarket</p>
+                    <p>Massage</p>
+                </li>
+                </div>
+                <div class="form-group">
+                <li>
+                    <h2>About Us</h2>
+                    <p>Testimonial</p>
+                    <p>FAQ</p>
+                    <p>Blog</p>
+                </li>
+                </div>
+                <div class="form-group">
+                <li>
+                    <h2>liyagold</h2>
+                    <img src="logos11.png" width="100px" alt="all logos" class="container1">
+                </li>
+                </div>
+                <div class="clr"></div>
+            </ul>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <h3> <img src="copyright.png" width="15px" alt=""> LiyaGold 2020</h3>
+            </div>
+        </footer>
+
+        <script>
+
+            var menu = document.getElementById('menu');
+            var nav = document.getElementById('nav');
+            var cancel = document.getElementById('cancel');
+
+            menu.addEventListener('click', function(e) {
+                nav.classList.toggle('hide-mobile');
+                e.preventDefault();
+            });
+
+            cancel.addEventListener('click', function(e) {
+                nav.classList.add('hide-mobile');
+                e.preventDefault();
+            });
+
+        </script>
+</body>
+</html>

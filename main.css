@@ -1,0 +1,460 @@
+
+body {
+    margin: 0;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.logo {
+    width: 120px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.menu {
+    width: 25px;
+    margin-top: 65%;
+}
+
+.box{
+    width: 100%;
+    background-color:white;
+  
+}
+
+.box h1{
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.box p{
+    color: darkgrey;
+    font-size: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial Unicode MS;
+    text-align: left;
+
+   
+}
+
+.box img{
+    width: 210px;
+    color: darkgrey;
+    border-radius: 70px 0px 0px 0px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    float: right;
+    
+    
+}
+
+.clr {
+    clear: both;
+}
+
+.featured-food {
+    color: red;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0;
+}
+
+.blue-container {
+    width: 100%;
+    background-color: #eef8f9;
+}
+
+.food{
+    float: left;
+    padding: 8px;
+}
+
+.food img{
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.testimonies {
+    color: red;
+    padding-left: 15px;
+}
+
+.feedback {
+    padding-left: 15px;
+    
+}
+
+.foods{
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+
+.foods img{
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    text-align: center;
+    
+}
+
+.white-container {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background-color: white;
+}
+
+.staff h3 {
+    color: red;
+}
+
+.staff h2 {
+    color: gray;
+}
+
+.chef {
+    float: left;
+  
+}
+
+.staff img{
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: gray;
+    margin: 0;
+}
+
+#gp {
+    background-color: white;
+    width: 280px;
+    padding: 10px;
+}
+
+.form-group {
+   
+    
+}
+
+.form-group h4 {
+    color: gray;
+    margin: 0;
+    padding-right: 60px;
+}
+
+.container1{
+    margin-bottom: 30px;
+}
+
+.button3{
+    background-color: red;
+    color: white;
+    padding: 0 15px;
+    border: none;
+    border-radius: 80px;
+    width: 100px;
+    font-size: 30px;
+    margin: auto;
+    font-size: 21px;
+}
+
+.button3:hover{
+   background-color: black;
+    color: white;
+}
+
+.button1{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+   
+    font-size: 10px;
+    
+}
+
+.button1:hover{
+   background-color: black;
+    color: white;
+}
+
+.button2{
+    background-color: red;
+    color: white;
+    padding: 0 15px;
+    border: none;
+    border-radius: 80px;
+}
+
+.button2:hover{
+   background-color: black;
+    color: white;
+}
+
+
+.footer-container {
+    width: 100%;
+    background-color: #eef8f9;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-container h3 {
+    margin: 0;
+}
+
+nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36, 41, 44);
+    height: 100%;
+    z-index: 7;
+    padding-top: 3em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background-color: rgb(49, 55, 59);
+}
+
+nav ul li a:hover {
+    background-color: rgb(56, 84, 102);
+}
+
+.cancel-btn {
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.cancel-btn img {
+    width: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 650px) {
+    .box{
+        width: 100%;
+        height: 500px;
+        background-color: white;
+    
+      
+    }
+    
+    .box h1{
+        color: black;
+        font-size: 80px;
+        direction: ltr;
+        padding: 50px;
+    }
+    
+    .box p{
+        color: darkgrey;
+        direction: ltr;
+        font-size: 30px;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Arial Unicode MS;
+    }
+    
+    .box img{
+        color: darkgrey;
+        float: right;
+        border-radius: 70px 0px 0px 0px;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+        width: 650px;
+    }
+
+    .featured-food{
+    
+    }
+    
+   .featured-food h1{
+        color: red;
+    }
+    
+    .featured-food p{
+        color: black;
+        float: right;
+        font-size: 20px;
+        color: grey;
+    }
+    
+    .food img{
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+        width: 300px;
+    }
+    
+    .food{
+        float: left;
+        padding: 10px;
+    }
+    
+    #showcaseme{
+    
+    }
+    
+    .testimonies p{
+        color: black;
+        font-family: Arial Unicode MS;
+        font-size: 25px;
+    }
+    
+    
+    .feedback h2{
+        color: red;
+        font-family: Arial Unicode MS;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .foods img{
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+        width: 400px;
+        padding: 5px;
+    }
+
+    .line{
+        width: 250px;
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .staff h3{
+        color: red;
+        text-align: center;
+    }
+    
+    .staff h2{
+        text-align: center;
+        color: darkgrey;
+    }
+    
+    .staff img{
+        margin: auto;
+        padding: 15px;
+        float: left;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+        width: 400px;
+    }
+
+    .form-group {
+        float: left;
+        padding: 75px;
+    }
+    
+    .see-all {
+        float: right;
+        padding-right: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .show-desktop {
+        display: block;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    .button{
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-size: 15px;
+        margin-left: 30px;
+        height: 55px;
+    }
+
+    .button:hover{
+        background-color: black;
+         color: white;
+    }
+
+    .logo {
+        width: 120px;
+        float: left;
+    }
+    
+    #nav {
+        float: right;
+    }
+
+    nav ul {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a {
+        color: black;
+        background: inherit;
+        text-align: right;
+        padding: 1em 2em;
+    }
+
+    nav ul li a:hover {
+        background-color: inherit;
+    }
+
+    .line {
+        width: 250px;
+        animation: move 1s infinite alternate;
+    }
+
+    @keyframes move {
+        0% {
+            transform: translateX(0px);
+        }
+        100% {
+            transform: translateX(150px);
+        }
+    }
+
+}
